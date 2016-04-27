@@ -1,0 +1,26 @@
+// tell the spec where to find our code
+var math = require('../math');
+
+describe("A simple arithmetic program", function()
+  it("can add two numbers", function()
+    expect(math.add(4,6)).toBe(10);
+  });
+});
+
+describe("A simple arithmetic program", function()
+  it("can subtract two numbers", function()
+    expect(math.subtract(10,6)).toBe(4);
+  });
+});
+
+describe("A simple arithmetic program", function()
+  it("can multiply two numbers", function()
+    expect(math.multiply(6,4)).toBe(24);
+  });
+});
+
+describe("A simple arithmetic program", function()
+  it("can divide two numbers", function()
+    expect(math.divide(24,4)).toBe(6);
+  });
+});
